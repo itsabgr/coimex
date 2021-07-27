@@ -2,9 +2,16 @@
   "name": "coimex",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "tsc --noEmit",
+    "start": "node --harmony-top-level-await index.js "
+  },
   "keywords": [],
-  "author": "",
+  "engines": {
+    "node": "14.17.3"
+  },
+  "author": "ABGR",
   "license": "ISC",
   "description": ""
 }
